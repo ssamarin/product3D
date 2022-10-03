@@ -1,0 +1,28 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'blocks/fonts';
+
+@import 'base/variables';
+@import 'base/mixins';
+
+
+html, body {
+    height: 100%;
+}
+
+* {
+    font-family: 'HelveticaNeueCyr';
+}
+
+main {
+    flex: 1 1 auto;
+}
+
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+
+

@@ -5,7 +5,7 @@
 @import 'base/mixins';
 
 @import 'blocks/header'; 
-
+@import 'blocks/promo';
 
 html, body {
     height: 100%;
@@ -25,7 +25,7 @@ main {
     flex: 1 1 auto;
 }
 
-[class*="container"] {
+[class*="__container"] {
     width: 1208px;
     margin: 0 auto;
 }

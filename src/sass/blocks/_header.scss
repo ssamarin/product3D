@@ -10,7 +10,7 @@
         height: 64px;
     }
     &__menu {
-        flex: 0 0 499px;
+        flex: 0 0 41%;
     }
     &__logo {
         display: inline-block;
@@ -22,10 +22,13 @@
             transform: scale(1.2);
         }
     }
+    &__phone {
+        flex: 0 0 17%;
+    }
 }
 
 .logo__wrapper {
-    flex: 0 0 508px;
+    flex: 0 0 42%;
     padding-left: 46px;
 }
 

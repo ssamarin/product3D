@@ -3,8 +3,10 @@
     padding: 147px 0 27px 25px;
     &__text {
         width: 470px;
+        padding-top: 40px;
     }
     &__title {
+        padding-right: 5px;
         font-weight: 500;
         font-size: 80px;
         line-height: 110%;
@@ -13,7 +15,7 @@
         color: #303030;
     }
     &__descr {
-        width: 335px;
+        width: 340px;
         margin: 48px 0 0 131px;
         font-weight: 300;
         font-size: 18px;
@@ -25,6 +27,15 @@
         display: flex;
         justify-content: flex-end;
         margin-top: 56px;
+    }
+    &__img {
+        width: 549px;
+        position: relative;
+    }
+    &__3D {
+        position: absolute;
+        top: 97px;
+        right: -79px;
     }
 }
 

@@ -1,6 +1,6 @@
 .promo {
     height: 763px;
-    padding: 147px 0 27px 25px;
+    padding-top: 147px;
     &__text {
         width: 470px;
         padding-top: 40px;
@@ -22,6 +22,9 @@
         text-align: right;
         color: #303030;
     }
+    &__ul {
+        list-style: none;
+    }
     &__btn {
         display: flex;
         justify-content: flex-end;
@@ -41,11 +44,7 @@
 .grid__wrapper {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 135px;
-}
-
-.italic {
-    font-style: italic;
+    column-gap: 135px;
 }
 
 .border {

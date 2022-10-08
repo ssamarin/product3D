@@ -6,9 +6,8 @@
         padding-top: 40px;
     }
     &__title {
-        padding-right: 5px;
         font-weight: 500;
-        font-size: 80px;
+        font-size: 78px;
         line-height: 110%;
         letter-spacing: 0.07em;
         text-transform: uppercase;
@@ -41,18 +40,12 @@
 
 .grid__wrapper {
     display: grid;
-    grid-template-columns: repeat(2, 558px 470px);
-    gap: 125px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 135px;
 }
 
 .italic {
     font-style: italic;
-}
-
-
-.title__wrapper {
-    display: flex;
-    justify-content: flex-end;
 }
 
 .border {
@@ -61,3 +54,4 @@
     opacity: 0.5;
     border: 1px solid #303030;
 }
+

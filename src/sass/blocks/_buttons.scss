@@ -1,7 +1,3 @@
-.promo__btn {
-    position: relative;
-}
-
 .btn {
     width: 237px;
     height: 66px;
@@ -9,32 +5,36 @@
     font-weight: 500;
     font-size: 14px;
     text-transform: uppercase;
-    transition: 0.7s all;
-    background: #303030;
+    background: $main-color;
     color: #FFFFFF;
-    // &::after {
-    //     content: '';
-    //     position: absolute;
-    //     bottom: 15%;
-    //     right: 5%;
-    //     width: 100%;
-    //     height: 100%;
-    //     z-index: -1;
-    //     border: 1px solid #303030;
-    // }
-
-// i can use aftrer ыъseeing hover effect
-    &:hover {
-        transform: translate(-11px, -13px);
+    &::after {
+        content: '';
+        position: absolute;
+        bottom: 15%;
+        right: 5%;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        transition: 0.7s all;
+        border: 1px solid $main-color;
+        pointer-events: none;
+    }
+    &:hover::after {
+        transform: translate(5%, 12%);
+    }
+    &_white {
+        width: 150px;
+        height: 66px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 14px;
+        text-transform: uppercase;
+        transition: 0.7s all;
+        background-color: rgba(28, 28, 28, 0);
+        color: $main-color;
+        &:hover {
+            transform: scale(0.95);
+        }
     }
 }
 
-.border {
-    position: absolute;
-    bottom: 12px;
-    left: 223px;
-    width: 237px;
-    height: 66px;
-    opacity: 0.5;
-    border: 1px solid #303030;
-}

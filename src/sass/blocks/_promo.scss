@@ -11,7 +11,7 @@
         line-height: 110%;
         letter-spacing: 0.07em;
         text-transform: uppercase;
-        color: #303030;
+        color: $main-color;
     }
     &__descr {
         width: 340px;
@@ -20,7 +20,7 @@
         font-size: 18px;
         line-height: 35px;
         text-align: right;
-        color: #303030;
+        color: $main-color;
     }
     &__ul {
         list-style: none;
@@ -51,6 +51,6 @@
     width: 237px;
     height: 66px;
     opacity: 0.5;
-    border: 1px solid #303030;
+    border: 1px solid $main-color;
 }
 

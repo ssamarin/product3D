@@ -43,12 +43,12 @@
         text-transform: uppercase;
         text-decoration: none;
         transition: 0.5s all;
-        color: #404040;
+        color: $header-color;
         &:hover {
             padding-bottom: 6px;
             text-decoration: none;
-            border-bottom: 1.5px solid #404040;
-            color: #404040;
+            border-bottom: 1.5px solid $header-color;
+            color: $header-color;
         }
     }
 }
@@ -56,12 +56,12 @@
 .phone {
     font-size: 17px;
     transition: 0.5s all;
-    color: #404040;
+    color: $header-color;
     &:hover {
-        color: #404040;
+        color: $header-color;
         padding-bottom: 6px;
         text-decoration: none;
-        border-bottom: 1.5px solid #404040;
+        border-bottom: 1.5px solid $header-color;
     }
 }
        

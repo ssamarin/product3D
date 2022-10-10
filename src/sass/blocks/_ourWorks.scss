@@ -6,7 +6,7 @@
         font-size: 60px;
         letter-spacing: 0.05em;
         text-transform: uppercase;
-        color: #303030;
+        color: $main-color;
     }
     &__gridWrapper {
         margin-top: 50px;
@@ -35,29 +35,8 @@
         width: 237px;
         height: 66px;
         z-index: -1;
-        border: 1px solid #303030;
+        border: 1px solid $main-color;
     } 
-    &__btn {
-        width: 237px;
-        height: 66px;
-        text-transform: uppercase;
-        transition: 0.7s all;
-        color: #fff;
-        background: #303030;
-        &:hover {
-            transform: translate(-11px, -10px);
-        }
-        &_white {
-            width: 150px;
-            height: 66px;
-            font-weight: 400;
-            font-size: 14px;
-            text-transform: uppercase;
-            border: 1px solid #303030;
-            color: #303030;
-            background-color: rgba(28,28,28,0)
-        }
-    }
 }
 
 .watch {

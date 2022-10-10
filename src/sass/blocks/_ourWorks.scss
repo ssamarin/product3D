@@ -19,7 +19,7 @@
         margin-top: 80px;
         display: flex;
         justify-content: center;
-        gap: 35px;
+        gap: 40px;
     }
     &__btns {
         margin-top: 80px;
@@ -135,5 +135,33 @@
         grid-column-end: 5;
         grid-row-start: 6;
         grid-row-end: 7;
+    }
+}
+
+.inactive {
+    display: block;
+    width: 20px;
+    height: 20px;
+    font-size: 40px;
+    transition: 0.5s all;
+    color: #8C8C8C;
+    &:hover {
+        text-decoration: none;
+        transform: scale(1.2);
+        color: #8C8C8C;
+    }
+}
+
+.active {
+    display: block;
+    width: 20px;
+    height: 20px;
+    font-size: 40px;
+    transition: 0.5s all;
+    color: $main-color;
+    &:hover {
+        text-decoration: none;
+        transform: scale(1.2);
+        color: $main-color;
     }
 }

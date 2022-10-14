@@ -1,0 +1,78 @@
+.portfolio {
+    height: 2298px;
+    padding-left: 25px;
+    &__item {
+        padding-top: 205px;
+    }
+    &__gridWrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 43px;
+    }
+    &__title {
+        width: 414px;
+        font-size: 37px;
+    }
+    &__descr {
+        margin-top: 30px;
+        width: 495px;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 145%;
+        color: #303030;
+        &_2 {
+            width: 515px;
+        }
+        &_3 {
+            width: 517px;
+        }
+    }
+    &__btn {
+        margin-top: 40px;
+        width: 150px;
+        height: 66px;
+    }
+    &__block_white {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 40px;
+        padding: 22px 0 22px 42px;
+        width: 612px;
+        height: 149px;
+        font-style: italic;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 145%; 
+        background: linear-gradient(89.68deg, #FBFBFB 49.07%, rgba(251, 251, 251, 0) 97.72%);
+        color: #303030;
+        &-2 {
+            width: 527px;
+        }
+    }
+    &__img {
+        width: 520px;
+        height: 520px;
+    }
+    &__counter {
+        text-align: center;
+        margin-top: 23px; 
+        font-weight: 300;
+        font-size: 20px;
+        text-transform: uppercase;
+        color: #303030;
+    }
+    &__inactive {   
+        color: #8C8C8C;
+    }
+}
+
+.overpraiced {
+    margin-top: 38px;
+    width: 537px;
+}
+
+.alone {
+    width: 420px;
+    margin-top: 40px;
+}

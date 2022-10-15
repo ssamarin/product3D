@@ -37,4 +37,16 @@
         }
     }
 }
-
+.ourPrices__button {
+    width: 170px;
+    height: 66px;
+    transition: 0.7s all;
+    font-weight: 550;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: $main-color;
+    background: #FFFFFF;
+    &:hover {
+        transform: scale(0.9);
+    }
+}

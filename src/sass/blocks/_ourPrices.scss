@@ -1,0 +1,97 @@
+.ourPrices {
+    padding: 404px 0 0 16px;
+    height: 1017px;
+    &__wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 70px;
+        margin-top: 75px;
+    }
+    &__title {
+        font-weight: 500;
+        font-size: 60px;
+        line-height: 110%;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: $main-color;
+    }
+    &__item {
+        display: flex;
+        flex-direction: column;
+        width: 340px;
+    }
+    &__text {
+        min-height: 545px;
+        color: #fff;
+        background-color: $main-color;
+    }
+    &__subtitle {
+        height: 80px;
+        padding: 36px 49px 0 28px;
+        font-weight: 500;
+        font-size: 19px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    &__list {
+        margin-top: 18px;
+        &-item {
+            height: 100%;
+            width: 100%;
+            position: relative;
+            padding: 18px 30px 18px 40px;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 145%;
+            list-style: none;
+            border-width: 1px 0 1px 0;
+            border-style: solid;
+            border-color: #B2B2B2;
+            color: #fff;
+            &::before {
+                content: '';
+                position: absolute;
+                top: 25px;
+                left: 25px;
+                width: 6px;
+                height: 6px;
+                border-radius: 100%;
+                background: #B2B2B2;
+            }
+            &_extraWidth {
+                min-height: 82px;
+            }
+        }
+    }
+    &__pricesBlock {
+        margin-top: 60px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        &-3 {
+            margin-top: 50px;
+            justify-content: center;
+            gap: 16px;
+        }
+    }
+    &__amount {
+        font-weight: 400;
+        font-size: 30px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+}
+
+.ourPrice {
+    width: 113px;
+    font-weight: 300;
+    font-size: 16px;
+    color: #8C8C8C;
+}
+
+.dollar {
+    font-size: 10px;
+    color: #fff;
+}

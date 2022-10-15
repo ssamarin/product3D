@@ -19,7 +19,7 @@
         font-weight: 300;
         font-size: 18px;
         line-height: 145%;
-        color: #303030;
+        color: $main-color;
         &_2 {
             width: 515px;
         }
@@ -45,7 +45,7 @@
         font-size: 24px;
         line-height: 145%; 
         background: linear-gradient(89.68deg, #FBFBFB 49.07%, rgba(251, 251, 251, 0) 97.72%);
-        color: #303030;
+        color: $main-color;
         &-2 {
             width: 527px;
         }
@@ -60,7 +60,7 @@
         font-weight: 300;
         font-size: 20px;
         text-transform: uppercase;
-        color: #303030;
+        color: $main-color;
     }
     &__inactive {   
         color: #8C8C8C;

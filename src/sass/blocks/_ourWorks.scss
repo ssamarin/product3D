@@ -37,6 +37,12 @@
         z-index: -1;
         border: 1px solid $main-color;
     } 
+    &__link {
+        transition: 0.7s all;
+        &:hover {
+            transform: scale(0.95);
+        }
+    }
 }
 
 .watch {

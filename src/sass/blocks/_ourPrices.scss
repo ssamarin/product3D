@@ -59,39 +59,41 @@
                 border-radius: 100%;
                 background: #B2B2B2;
             }
-            &_extraWidth {
+            &_extraHeight {
                 min-height: 82px;
             }
         }
     }
-    &__pricesBlock {
-        margin-top: 60px;
+    &__price {
         display: flex;
         justify-content: space-around;
-        align-items: center;
-        &-3 {
-            margin-top: 50px;
-            justify-content: center;
-            gap: 16px;
+        padding-top: 30px;
+    }
+    &__cost {
+        max-width: 50px;
+    }
+    &__from {
+        max-width: 111px;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 145%;
+        color: #8C8C8C;
+        &_lotOfText {
+            line-height: 140%;
         }
     }
-    &__amount {
+    &__white {
         font-weight: 400;
-        font-size: 30px;
+        font-size: 40px;
+        line-height: 145%;
         letter-spacing: 0.05em;
         text-transform: uppercase;
         color: #FFFFFF;
     }
-}
-
-.ourPrice {
-    width: 113px;
-    font-weight: 300;
-    font-size: 16px;
-    color: #8C8C8C;
-}
-
-.dollar {
-    font-size: 10px;
-    color: #fff;
+    &__for {
+        margin-top: -15px;
+        font-weight: 100;
+        font-size: 15px;
+        color: #FFFFFF;
+    }
 }

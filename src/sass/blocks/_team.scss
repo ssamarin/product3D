@@ -1,5 +1,6 @@
 .team {
     position: relative;
+    max-height: 855px;
     margin-top: 480px;
     &__title {
         font-weight: 500;
@@ -52,7 +53,7 @@
     &__decor {
         position: absolute;
         bottom: 380px;
-        left: 150px;
+        left: 257px;
         z-index: -1;
     }
     &__noize {

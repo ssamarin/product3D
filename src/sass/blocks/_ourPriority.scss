@@ -1,5 +1,5 @@
 .ourPriority {
-    padding: 300px 0 54px;
+    padding: 330px 0 54px;
     min-height: 855px;
     &__title {
         font-weight: 550;
@@ -55,5 +55,20 @@
             border-bottom: 1.5px solid $main-color;
             color: $main-color;
         }
+    }
+    &__imgs {
+        margin-top: 100px;
+        position: relative;
+    }
+    &__img {
+        position: absolute;
+        bottom: 90px;
+        right: 90px;
+    }
+    &__grid {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        z-index: -1;
     }
 }

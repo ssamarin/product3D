@@ -50,3 +50,18 @@
         transform: scale(0.9);
     }
 }
+
+.contactUs__btn_black {
+    margin-top: 50px;
+    width: 237px;
+    height: 66px;
+    font-weight: 550;
+    font-size: 14px;
+    text-transform: uppercase;
+    transition: 0.7s all;
+    color: #FFFFFF;
+    background: $main-color;
+    &:hover {
+        transform: scale(0.9);
+    }
+}

@@ -1,0 +1,61 @@
+.contactUs {
+    padding-left: 60px;
+    min-height: 667px;
+    &__wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 60px;
+    }
+    &__title {
+        max-width: 472px;
+        font-weight: 5500;
+        font-size: 34px;
+        line-height: 150%;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: $main-color;
+    }
+    &__feed-form {
+        display: flex;
+        flex-direction: column;
+        row-gap: 15px;
+        margin-top: 30px;
+        width: 339px;
+        min-height: 467px;
+        input {
+            padding: 26px 0 26px 40px;
+            width: 340px;
+            height: 66px;
+            background: #FFFFFF;
+            border: 1px solid #B2B2B2;
+        }
+    }
+    &__videoConsult {
+        margin-top: 30px;
+    }
+    &__block_white {
+        padding: 50px;
+        padding-left: 30px;
+        width: 660px;
+        height: 133px;
+        font-weight: 500;
+        font-size: 25px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        background: linear-gradient(89.68deg, #FBFBFB 49.07%, rgba(251, 251, 251, 0) 97.72%);
+        color: $main-color;
+    }
+    &__btn_white {
+        margin-top: 30px;
+    }
+}
+
+#textarea {
+    padding: 26px 0 87px 40px;
+    width: 340px;
+    height: 133px;
+    resize: none;
+    &::placeholder {
+        content: 'Describe your project'
+    }
+}

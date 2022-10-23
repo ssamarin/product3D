@@ -11,8 +11,8 @@
     &__gridWrapper {
         margin-top: 50px;
         display: grid;
-        grid-template-columns: repeat(5, 250px);
-        grid-template-rows: repeat(6, 250px);
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(6, 1fr);
         gap: 21px;
     }
     &__arrows {

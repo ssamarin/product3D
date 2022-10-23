@@ -2,7 +2,7 @@
     height: 763px;
     padding-top: 147px;
     &__text {
-        width: 470px;
+        max-width: 470px;
         padding-top: 40px;
     }
     &__title {
@@ -14,7 +14,7 @@
         color: $main-color;
     }
     &__descr {
-        width: 340px;
+        max-width: 340px;
         margin: 48px 0 0 131px;
         font-weight: 300;
         font-size: 18px;
@@ -31,7 +31,7 @@
         margin-top: 56px;
     }
     &__img {
-        width: 549px;
+        max-width: 549px;
         position: relative;
     }
     &__3D {
@@ -48,7 +48,7 @@
 }
 
 .border {
-    width: 237px;
+    max-width: 237px;
     height: 66px;
     opacity: 0.5;
     border: 1px solid $main-color;

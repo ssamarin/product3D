@@ -4,6 +4,7 @@
 @import 'base/variables';
 @import 'base/mixins';
 
+
 @import 'blocks/header'; 
 @import 'blocks/promo';
 @import 'blocks/buttons';
@@ -15,12 +16,15 @@
 @import 'blocks/ourPriority';
 @import 'blocks/contactUs';
 @import 'blocks/footer';
+@import 'blocks/hamburger';
+@import 'blocks/media';
 
 html, body {
     height: 100%;
 }
 
 body {
+    position: relative;
     background: url('../img/bg/main_bg.png');
 }
 
